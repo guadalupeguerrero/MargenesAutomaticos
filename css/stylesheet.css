@@ -1,18 +1,26 @@
 div{
 	width: 270px;
 	height: 200px;
-	border: 10px solid yellow;
+	
 }
 
-#centrado{
-   text-align:center;
+.centrado{
+   text-align:center; font-family:Arial; 
    padding: 30px;
-
+   border: 10px solid yellow;
+   background-color: red;
 }
 
 #justificado{
-   text-align:left;
+   text-align:left; font-family:serif;
    padding: 30px;
-   margin-left: 500px;	
+   margin-left: 500px;
+   border: 10px solid blue;
+   background-color: white;
+}
 
+
+
+body{
+	background-color: #06C9D4;
 }
